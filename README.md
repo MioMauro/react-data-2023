@@ -1,8 +1,10 @@
 
 
-Stock Trading App, from FreeCodeCamp youtube channel <h4>https://replit.com/@SanjeevThiyagar/react-demo#src/components/StockData.jsx</h4>
+Replit = Stock Trading App, from FreeCodeCamp youtube channel <h4>https://replit.com/@SanjeevThiyagar/react-demo#src/components/StockData.jsx</h4>
 
-youtube <h4>https://www.youtube.com/watch?v=u6gSSpfsoOQ</h4>
+<h4>YouTube - https://www.youtube.com/watch?v=u6gSSpfsoOQ</h4>
+
+<h5>Boostrapped - npm i bootstrap</h5>
 
 # Getting Started with Create React App
 
