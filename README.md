@@ -5,6 +5,11 @@ Replit = Stock Trading App, from FreeCodeCamp youtube channel <h4>https://replit
 <h4>YouTube - https://www.youtube.com/watch?v=u6gSSpfsoOQ</h4>
 
 <h5>Boostrapped - npm i bootstrap</h5>
+<h5>import 'bootstrap/dist/css/bootstrap.min.css';</h5>
+
+<h5>API - https://finnhub.io/ (register for free)</h5>
+
+<h5>npm i react-router-dom</h5>
 
 # Getting Started with Create React App
 
