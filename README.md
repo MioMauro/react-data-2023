@@ -10,6 +10,7 @@ Replit = Stock Trading App, from FreeCodeCamp youtube channel <h4>https://replit
 <h5>API - https://finnhub.io/ (register for free)</h5>
 
 <h5>npm i react-router-dom</h5>
+<h5>npm i axios</h5>
 
 # Getting Started with Create React App
 
