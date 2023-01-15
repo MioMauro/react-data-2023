@@ -1,3 +1,9 @@
+
+
+Stock Trading App, from FreeCodeCamp youtube channel <h4>https://replit.com/@SanjeevThiyagar/react-demo#src/components/StockData.jsx</h4>
+
+youtube <h4>https://www.youtube.com/watch?v=u6gSSpfsoOQ</h4>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
