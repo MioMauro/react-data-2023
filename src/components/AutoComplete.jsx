@@ -5,6 +5,20 @@ export const AutoComplete = () => {
     const [search, setSearch] = useState("")
     const [results, setResults] = useState([])
 
+    const renderDropdown = () => {
+        const dropDownClass = search ? "show" : null
+        return (
+            <ul style={{height: "500px", overflowY: "scroll", overflowX: "hidden", cursor: "pointer"}} 
+            className={`dropdown-menu ${dropDownClass}`}>
+                {results.map((result) => {
+                    return (
+                        <li className="dropdown-item">{result.description}({result.symbol})</li>
+                    )
+                })}
+            </ul>
+        )
+    }
+
     useEffect(() => {
         let isMounted = true
         const fetchData = async () => {
@@ -30,7 +44,6 @@ export const AutoComplete = () => {
         }
 
         return () => (isMounted = false) 
-
     }, [search])
 
     return <div className="w-50 p-5 rounded mx-auto">
@@ -43,11 +56,15 @@ export const AutoComplete = () => {
                 setSearch(e.target.value)}>
             </input>
             <label htmlFor="search">Search</label>
-            <ul className="dropdown-menu">
+            {renderDropdown()}
+            
+        </div>
+    </div>
+}
+/* 
+<ul className="dropdown-menu show">
                 <li>stock1</li>
                 <li>stock2</li>
                 <li>stock3</li>
             </ul>
-        </div>
-    </div>
-}
+*/
