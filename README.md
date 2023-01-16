@@ -1,4 +1,4 @@
-
+UNDER CONSTRUCTION
 
 Replit = Stock Trading App, from FreeCodeCamp youtube channel <h4>https://replit.com/@SanjeevThiyagar/react-demo#src/components/StockData.jsx</h4>
 
