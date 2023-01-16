@@ -12,7 +12,8 @@ Replit = Stock Trading App, from FreeCodeCamp youtube channel <h4>https://replit
 <h5>npm i react-router-dom</h5>
 <h5>npm i axios</h5>
 <h5>npm install react-icons --save</h5>
-
+<h5>npm install apexcharts --save</h5>
+<h5>npm install --save react-apexcharts apexcharts</h5>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

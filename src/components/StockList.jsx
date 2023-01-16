@@ -9,7 +9,7 @@ import { WatchListContext } from "../context/watchListContext"
 export const StockList = () => {
     const [stock, setStock] = useState([])
     //const [watchList, setWatchList] = useState(["GOOGL", "MSFT", "AMZN"])
-    const {watchList} = useContext(WatchListContext)
+    const {watchList, deleteStock} = useContext(WatchListContext)
     const navigate = useNavigate()
 
     console.log(watchList)
@@ -88,13 +88,16 @@ export const StockList = () => {
 
                         <td className={`text-${changeColor(stockData.dp)}`}>
                         {stockData.data.dp}
-                        {renderIcon(stockData.data.dp)}                        
-                        </td>
-
+                        {renderIcon(stockData.data.dp)}</td>
                         <td>{stockData.data.h}</td>
                         <td>{stockData.data.l}</td>
                         <td>{stockData.data.o}</td>
-                        <td>{stockData.data.pc}</td>
+                        <td>{stockData.data.pc}                  
+                        <button className="btn btn-danger btn-sm ml-3 d-inline-block delete-button"
+                        onClick={(e) => {
+                            e.stopPropagation()
+                            deleteStock(stockData.symbol)
+                        }}>Remove</button></td>
                     </tr>
                 )
             })}

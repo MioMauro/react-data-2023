@@ -1,7 +1,7 @@
 import { createContext, useState, useEffect } from "react"
 
 export const WatchListContext = createContext()
-//["GOOGL", "MSFT", "AMZN"]
+
 export const WatchListContextProvider = (props) => {
 
     const [watchList, setWatchList] = useState(
